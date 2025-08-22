@@ -1,0 +1,153 @@
+@import url(./colors.css);
+
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: var(--regular_hell_gelb);
+}
+
+#container_header{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+h1{
+    color: var(--text_orange);
+    border-bottom: 4px solid var( --regular_gruen);
+    text-align: center;
+    width: 80%;
+    font-size: 60px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+p{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+#container_beschreibung_rezept{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+#container_beschreibung{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    width: 80%;
+    background-color: var(--regular_orange);
+    border: 20px solid var(--regular_orange);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+h2{
+    background-color: var(--regular_orange);
+    font-size: 50px;
+    color: var(--text_white);
+    width: 100%;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#art_beschreibung{
+    background-color: var(--regular_hell_gelb);
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#container_portionen{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+#container_rezept{
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px   
+    
+}
+#label_portionen{
+    background-color: var(--regular_hell_gruen);
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#input_portionen_anzahl{
+    width: 15%;
+    font-size: 20px;
+    margin-left: 10px;
+    border: 1px dotted var(--regular_orange);
+}
+
+#container_zutaten_anleitung{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+h3{
+    color: var(--text_grey);
+    font-size: 25px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid var( --regular_gruen);
+}
+
+#container_zutaten{
+    background-color: var(--regular_hell_gelb);
+    padding: 30px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+td{
+    padding: 10px;
+    border-bottom: 1px dotted var(--text_grey);
+}
+
+.td_menge{
+    text-align: right;
+    font-weight: 600;
+}
+
+#container_anleitung ul{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+#container_anleitung ul > li{
+    list-style: decimal;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-left: 5px solid var(--regular_gruen);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#container_anleitung h3{
+    margin-right: 50px;
+}
