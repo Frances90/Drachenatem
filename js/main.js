@@ -16,11 +16,9 @@ var zutaten = ['Huhn', 'Currypulver', 'Kokosmilch', 'Ingwer', 'Zwiebel', 'Reis',
 var mengen = [1, 10, 250, 2, 1, 200, 20, 0.5];
 var einheiten = ['Stk.', 'g', 'ml', 'ml', 'Stk.', 'g', 'ml', 'g'];
 
-console.log("Zutat:" + zutaten[0] + " Menge:" + mengen[0] + einheiten[0]);
-
 var gesamtZutat = null;
 
 for (let i = 0; i < zutaten.length; i++) {
-    gesamtZutat = zutaten[i] + " " + mengen[i] + einheiten[i];
+    gesamtZutat = "Zutat: " + zutaten[i] + " - " + mengen[i] + einheiten[i];
     console.log(gesamtZutat);
 }
