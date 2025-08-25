@@ -69,34 +69,44 @@ h2{
     border-radius: 20px;
 }
 
-#container_portionen{
-    display: flex;
-    flex-direction: row;
-    justify-self: center;
-    align-items: center;
-    padding-top: 40px;
-    padding-bottom: 80px;
-}
 #container_rezept{
     width: 80%;
     background-color: white;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
     border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px   
-    
+    border-bottom-right-radius: 40px;  
+    margin-bottom: 20px; 
 }
+
+#container_portionen{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+#label_input_portionen{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 #label_portionen{
     background-color: var(--regular_hell_gruen);
     padding: 10px;
     font-weight: 600;
     font-size: 20px;
+    border-radius: 5px;
 }
 
 #input_portionen_anzahl{
     width: 15%;
     font-size: 20px;
     margin-left: 10px;
-    border: 1px dotted var(--regular_orange);
+    border: 1px dashed var(--regular_orange);
 }
 
 #container_zutaten_anleitung{
