@@ -22,3 +22,15 @@ for (let i = 0; i < zutaten.length; i++) {
     gesamtZutat = "Zutat: " + zutaten[i] + " - " + mengen[i] + einheiten[i];
     console.log(gesamtZutat);
 }
+
+var button_info = document.getElementById("icon_info");
+var popup_background = document.getElementById("popup_background");
+var button_close = document.getElementById("icon_close");
+            
+button_info.addEventListener("click", function() {
+    popup_background.classList.toggle("visible");            
+});
+           
+button_close.addEventListener("click", function() {
+    popup_background.classList.toggle("visible");
+});
